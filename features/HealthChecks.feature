@@ -11,3 +11,6 @@ Scenario: Check Qwertee homepage can be reached
   Given I visit the homepage for "Qwertee"
   Then The Qwertee title displays correctly
 
+Scenario: Other thing
+  Given I visit the Ieso health page
+  Then The All Systems Operational banner displays
